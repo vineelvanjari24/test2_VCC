@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test2_VCC"
+        tools:targetApi="31">
+        <activity
+            android:name=".agent.AddCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".agent.MonthlySummery"
+            android:exported="false" />
+        <activity
+            android:name=".agent.DayWiseSummery"
+            android:exported="false" />
+        <activity
+            android:name=".agent.SavingAccountReports"
+            android:exported="false" />
+        <activity
+            android:name=".agent.savingAccountCollection"
+            android:exported="false" />
+        <activity
+            android:name=".admin.DeleteFiles"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UploadDownload"
+            android:exported="false" />
+        <activity
+            android:name=".agent.ManageCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".agent.AgentMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agent.AgentCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageUser"
+            android:exported="false" />
+        <activity
+            android:name=".admin.settings"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agent.AgentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
